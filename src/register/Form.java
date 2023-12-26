@@ -19,18 +19,16 @@ public class Form {
         WebElement firstname = driver.findElement(By.name("firstName"));
         firstname.sendKeys("Satyam");
 
-        // WebElement lastname = driver.findElement(By.name("middleName"));
-        // lastname.sendKeys("Kumar");
 
 
         WebElement lastname = driver.findElement(By.name("lastName"));
         lastname.sendKeys("Pandey");
 
         WebElement phone = driver.findElement(By.name("phone"));
-        phone.sendKeys("9169950965");
+        phone.sendKeys("9169950434");
 
         WebElement email = driver.findElement(By.id("userName"));
-        email.sendKeys("satyamkrpandey");
+        email.sendKeys("satyamkrpandey@gmail.com");
 
         WebElement address = driver.findElement(By.xpath("//input[@name='address1']"));
         address.sendKeys("Maldahiya");
@@ -39,7 +37,7 @@ public class Form {
         city.sendKeys("Varanasi");
 
         WebElement state = driver.findElement(By.name("state"));
-        state.sendKeys("Chandigarh");
+        state.sendKeys("Uttar Pradesh");
 
         WebElement postalCode = driver.findElement(By.name("postalCode"));
         postalCode.sendKeys("221002");
@@ -51,7 +49,7 @@ public class Form {
         droplist.selectByVisibleText("INDIA");
       
         WebElement username = driver.findElement(By.name("email"));
-        username.sendKeys("satyamkrpandey@outlook.in");
+        username.sendKeys("satyamkrpandey");
 
         WebElement password = driver.findElement(By.name("password"));
         password.sendKeys("12321");
